@@ -14,4 +14,4 @@ Python_project
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 ### Cooperation contact person
-To assign someone as the contact person 
+Andy W.
