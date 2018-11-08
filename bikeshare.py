@@ -3,11 +3,12 @@ import calendar
 import pandas as pd
 import numpy as np
 
-# define city name to the input data
+# define city dictionary to the input data
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-#####################################
+
+# define filter function
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -193,7 +194,6 @@ def user_stats(df):
     print('Count summary of different user types: ')
     print(user_types)
 
-
     print('-'*10)
 	# Display counts of gender  (only available for NYC and Chicago)
 
@@ -215,7 +215,7 @@ def user_stats(df):
         print('The most recent year of birth is ' + str(int(birth_year_latest)) + '.')
         print('The most common year of birth is ' + str(int(birth_year_common)) + '.')
     else:
-        print('No available info about Birth Year for Washington.')
+        print('No available data for Birth Year in Washington.')
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
