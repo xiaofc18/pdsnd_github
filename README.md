@@ -5,7 +5,7 @@
 Bikeshare analysis in Python
 
 ### Description
-Describe what your project is about and what it does
+Basic analysis of bike share project in three US cities
 
 ### Files used
 Include the files used
