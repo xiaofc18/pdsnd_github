@@ -3,7 +3,7 @@ import calendar
 import pandas as pd
 import numpy as np
 
-# define city name to the input data
+# define city dictionary to the input data
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -193,7 +193,6 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
     print('Count summary of different user types: ')
     print(user_types)
-
 
     print('-'*10)
 	# Display counts of gender  (only available for NYC and Chicago)
